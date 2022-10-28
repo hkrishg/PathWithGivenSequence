@@ -41,6 +41,7 @@ class Main {
     root.left.left = new TreeNode(1);
     root.right.left = new TreeNode(6);
     root.right.right = new TreeNode(5);
+    System.out.println(Main.PathWithGivenSequence(root, new int[] {1,1,6}));
     System.out.println(Main.PathWithGivenSequence(root, new int[] {1,1,1}));
 
   }
